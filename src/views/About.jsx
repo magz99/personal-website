@@ -1,32 +1,14 @@
 import React from 'react';
+// import styled from 'styled-components';
 
-const myName = () => 'Magali Bautista-Lee';
-const myPhone = () => '9057821272';
-const myAddress = () => '26 Trowell Lane, Ajax ON, L1Z1K4';
-const myPosition = () => 'Web Developer';
+import ResumeHeader from '../components/ResumeHeader';
+import InfoSidebar from '../components/InfoSidebar';
 
 const myResume = () => (
   <div className="resume-container">
-    <header className="resume-header">
-      {myName()}
-      <br />
-      {myPosition()}
-    </header>
-    <section className="info-sidebar">
-      <div>
-        Home:
-        {' '}
-        {myPhone()}
-        {' '}
-        <br />
-        Mobile:
-        {' '}
-        {myPhone()}
-        {' '}
-        <br />
-        {myAddress()}
-      </div>
-    </section>
+    <ResumeHeader />
+    <InfoSidebar displayFull="true" />
+    {/* Page 2 will have only the Reach me at */}
   </div>
 );
 
