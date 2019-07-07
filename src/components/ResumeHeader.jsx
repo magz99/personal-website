@@ -5,8 +5,12 @@ const Header = styled.header`
   background-color: #164e98;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
   text-transform: uppercase;
   padding: 15px 0;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
 
   .name {
     font-size: 31px;
