@@ -3,19 +3,43 @@ import styled from 'styled-components';
 
 import SectionTitle from '../styles/shared';
 
-const Subtitle = styled.h3``;
-const Description = styled.h4``;
+const Subtitle = styled.h3`
+  color: #164e98;
+  margin-bottom: 5px;
+`;
+const Description = styled.h4`
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 5px;
+`;
+
+const JobList = styled.ul`
+  list-style: disc;
+  padding-left: 15px;
+  li {
+    font-size: 14px;
+    line-height: 1.48;
+  }
+`;
+
+const JobSection = styled.section`
+  margin-bottom: 15px;
+`;
+
+const ContentSection = styled.section`
+  margin-bottom: 15px;
+`;
 
 const ResumeContent = () => (
-  <>
+  <section id="resume-content">
     <div>
       <SectionTitle>Experience</SectionTitle>
-      <div>
+      <JobSection>
         <Subtitle>Senior Web Developer</Subtitle>
         <Description>
           Saatchi &amp; Saatchi Canada (TPM Division), Toronto, Ontario | May 2011 - Present
         </Description>
-        <ul>
+        <JobList>
           <li>
             Work collaboratively with project teams to conceptualize, develop and execute engaging
             and usable interactive experiences.
@@ -33,12 +57,12 @@ const ResumeContent = () => (
             Advise on best practices and current trends, and come up with creative solutions to
             development problems or obstacles.
           </li>
-        </ul>
-      </div>
-      <div>
+        </JobList>
+      </JobSection>
+      <JobSection>
         <Subtitle>Software Developer</Subtitle>
         <Description>University of Toronto | June 2010 - August 2010</Description>
-        <ul>
+        <JobList>
           <li>
             Added functionality to a pre-existing web-based application to be used internally by U
             of T faculty.
@@ -49,12 +73,12 @@ const ResumeContent = () => (
             Attended meetings with clients to discuss new requirements, or changes to the
             application.
           </li>
-        </ul>
-      </div>
-      <div>
-        <Subtitle>Batch Test Analyst</Subtitle>
+        </JobList>
+      </JobSection>
+      <JobSection>
+        <Subtitle>Batch Test Analyst (Co-op)</Subtitle>
         <Description>Canadian Imperial Bank of Commerce | May 2008 - August 2009</Description>
-        <ul>
+        <JobList>
           <li>
             Executed test cases, scenarios and scripts to ensure batch functionality in multiple
             applications.
@@ -69,39 +93,43 @@ const ResumeContent = () => (
             Provided technical support and expertise in batch process testing for banking
             applications.
           </li>
-        </ul>
-      </div>
+        </JobList>
+      </JobSection>
     </div>
-    <div>
+    <ContentSection>
       <SectionTitle>Education</SectionTitle>
-      <Subtitle>University of Toronto, Hons. Bachelor of Science in Computer Science</Subtitle>
-    </div>
-    <div>
+      <Subtitle>
+        University of Toronto, Hons. Bachelor of Science in Computer Science (2011)
+      </Subtitle>
+    </ContentSection>
+    <ContentSection>
       <SectionTitle>Languages</SectionTitle>
-      <span>
-        <b>French</b>
-        {' '}
+      <JobList>
+        <li>
+          <b>French</b>
+          {' '}
 - Native
-      </span>
-      <span>
-        <b>Spanish</b>
-        {' '}
+        </li>
+        <li>
+          <b>Spanish</b>
+          {' '}
 - Fluent
-      </span>
-    </div>
-    <div>
+        </li>
+      </JobList>
+    </ContentSection>
+    <ContentSection>
       <SectionTitle>Education</SectionTitle>
       <Subtitle>University of Toronto, Hons. Bachelor of Science in Computer Science</Subtitle>
-    </div>
-    <div>
+    </ContentSection>
+    <ContentSection>
       <SectionTitle>Interests</SectionTitle>
-      <ul>
+      <JobList>
         <li>Hands-on DIY projects</li>
         <li>Watching crime documentaries</li>
         <li>Antiquing</li>
-      </ul>
-    </div>
-  </>
+      </JobList>
+    </ContentSection>
+  </section>
 );
 
 export default ResumeContent;

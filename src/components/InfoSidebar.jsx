@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import ReachMeAt from './ReachMeAt';
 import SectionTitle from '../styles/shared';
@@ -8,6 +9,23 @@ const inBrief = () => `I am a self-starter, always looking to
 learn new technologies. I have a keen
 interest in website accessibility and
 strive for continuous improvement.`;
+
+const Subtitle = styled.h3`
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+`;
+
+const InfoList = styled.ul`
+  margin-bottom: 5px;
+  list-style: disc;
+  margin-left: 15px;
+
+  li {
+    font-size: 14px;
+    line-height: 1.48;
+  }
+`;
 
 const InfoSidebar = ({ displayFull }) => (
   <section className="info-sidebar">
@@ -19,34 +37,34 @@ const InfoSidebar = ({ displayFull }) => (
         </div>
         <div>
           <SectionTitle>Tech Skills</SectionTitle>
-          <span className="skill-subtitle">Proficient With:</span>
-          <ul>
+          <Subtitle>Proficient With:</Subtitle>
+          <InfoList>
             <li>Javascript, jQuery</li>
             <li>HTML and CSS</li>
             <li>SVN</li>
-          </ul>
-          <span className="skill-subtitle">Working Knowledge:</span>
-          <ul>
+          </InfoList>
+          <Subtitle>Working Knowledge:</Subtitle>
+          <InfoList>
             <li>AngularJS, Angular</li>
             <li>React, Redux</li>
             <li>PHP (Laravel)</li>
             <li>Java (Spring)</li>
-          </ul>
-          <span className="skill-subtitle">Occasional (some familiarity):</span>
-          <ul>
+          </InfoList>
+          <Subtitle>Occasional (some familiarity):</Subtitle>
+          <InfoList>
             <li>Git</li>
             <li>Firebase</li>
             <li>Mysql</li>
             <li>Node.js and Express.js</li>
-          </ul>
+          </InfoList>
         </div>
         <div>
           <SectionTitle>Soft Skills</SectionTitle>
-          <ul>
+          <InfoList>
             <li>Good communicator and can work collaboratively</li>
             <li>Can work under tight deadlines</li>
             <li>Resourceful and reliable team member</li>
-          </ul>
+          </InfoList>
         </div>
         <ReachMeAt />
       </>
