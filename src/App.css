@@ -20,6 +20,25 @@ p {
   padding-top: 15px;
 }
 
+.info-sidebar {
+  padding-left: 15px;
+}
+#resume-content {
+  padding-right: 15px;
+}
+
+@media print {
+  .info-sidebar,
+  #resume-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ul li {
+    page-break-inside: avoid;
+  }
+}
+
 .info-sidebar > div {
   margin-bottom: 30px;
 }
