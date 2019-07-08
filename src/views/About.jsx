@@ -11,7 +11,6 @@ const myResume = () => (
     <InfoSidebar displayFull />
     {/* Page 2 will have only the Reach me at */}
     <ResumeContent />
-    <InfoSidebar displayFull={false} />
   </div>
 );
 

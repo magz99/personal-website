@@ -101,6 +101,10 @@ const ResumeContent = () => (
       <Subtitle>
         University of Toronto, Hons. Bachelor of Science in Computer Science (2011)
       </Subtitle>
+      <JobList>
+        <li>Worked as a Help Desk Advisor for the Computing Services Department</li>
+        <li>Teaching Assistant for 40 first-year Computer Science students</li>
+      </JobList>
     </ContentSection>
     <ContentSection>
       <SectionTitle>Languages</SectionTitle>
@@ -116,10 +120,6 @@ const ResumeContent = () => (
 - Fluent
         </li>
       </JobList>
-    </ContentSection>
-    <ContentSection>
-      <SectionTitle>Education</SectionTitle>
-      <Subtitle>University of Toronto, Hons. Bachelor of Science in Computer Science</Subtitle>
     </ContentSection>
     <ContentSection>
       <SectionTitle>Interests</SectionTitle>
