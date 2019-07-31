@@ -125,7 +125,7 @@ const ResumeContent = () => (
       <SectionTitle>Interests</SectionTitle>
       <JobList>
         <li>Hands-on DIY projects</li>
-        <li>Watching crime documentaries</li>
+        <li>Watching documentaries</li>
         <li>Antiquing</li>
       </JobList>
     </ContentSection>

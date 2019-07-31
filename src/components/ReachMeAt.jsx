@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import SectionTitle from '../styles/shared';
 
-const myEmail = () => 'hello@magali.dev';
+const myEmail = () => 'mbautistalee@gmail.com';
 const website = () => 'magzb.ca';
 const webUrl = () => 'https://www.magzb.ca';
 const myPhone = () => '(905) 782-1272';

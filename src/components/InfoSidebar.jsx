@@ -37,10 +37,10 @@ const InfoSidebar = ({ displayFull }) => (
         </div>
         <div>
           <SectionTitle>Tech Skills</SectionTitle>
-          <Subtitle>Proficient With:</Subtitle>
+          <Subtitle>Day-to-Day (proficient):</Subtitle>
           <InfoList>
             <li>Javascript, jQuery</li>
-            <li>HTML and CSS</li>
+            <li>HTML5 and CSS3</li>
             <li>SVN</li>
           </InfoList>
           <Subtitle>Working Knowledge:</Subtitle>
@@ -48,14 +48,19 @@ const InfoSidebar = ({ displayFull }) => (
             <li>AngularJS, Angular</li>
             <li>React, Redux</li>
             <li>PHP (Laravel)</li>
-            <li>Java (Spring)</li>
+            <li>Github</li>
+            <li>Apache (HTTP and Tomcat)</li>
+            <li>Java</li>
+            <li>Node.js</li>
           </InfoList>
-          <Subtitle>Occasional (some familiarity):</Subtitle>
+          <Subtitle>Tools:</Subtitle>
           <InfoList>
-            <li>Git</li>
-            <li>Firebase</li>
-            <li>Mysql</li>
-            <li>Node.js and Express.js</li>
+            <li>Eclipse IDE</li>
+            <li>Maven</li>
+            <li>Ant</li>
+            <li>Zeplin</li>
+            <li>Jira/Confluence</li>
+            <li>Selenium (Automated testing)</li>
           </InfoList>
         </div>
         <div>
