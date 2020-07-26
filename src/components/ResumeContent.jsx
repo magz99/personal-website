@@ -35,26 +35,45 @@ const ResumeContent = () => (
     <div>
       <SectionTitle>Experience</SectionTitle>
       <JobSection>
-        <Subtitle>Senior Web Developer</Subtitle>
+        <Subtitle>Software Developer</Subtitle>
         <Description>
-          Saatchi &amp; Saatchi Canada (TPM Division), Toronto, Ontario | May 2011 - Present
+          Rangle.io, Toronto, Ontario | September 2019 - Present
         </Description>
         <JobList>
           <li>
-            Work collaboratively with project teams to conceptualize, develop and execute engaging
+            Writes well designed, optimized, testable and efficient code by using industry best practices
+          </li>
+          <li>
+            Works with various clients and participates in planning, grooming and development of user stories
+          </li>
+          <li>Ensure that websites meet the required accessibility compliance</li>
+          <li>
+            Writes unit tests for new features that are developed
+          </li>
+          <li>Manage individual project priorities, deadlines and deliverables</li>
+        </JobList>
+      </JobSection>
+      <JobSection>
+        <Subtitle>Senior Web Developer</Subtitle>
+        <Description>
+          Saatchi &amp; Saatchi Canada (TPM Division), Toronto, Ontario | May 2011 - August 2019
+        </Description>
+        <JobList>
+          <li>
+            Worked collaboratively with project teams to conceptualize, develop and execute engaging
             and usable interactive experiences.
           </li>
           <li>
-            Develop standards-compliant and usable websites with modern web technologies and
+            Developed standards-compliant and usable websites with modern web technologies and
             contribute to site documentation.
           </li>
-          <li>Ensure that websites are WCAG 2.0 Level A, and Level AA compliant</li>
+          <li>Ensured that websites are WCAG 2.0 Level A, and Level AA compliant</li>
           <li>
             Troubleshoot and debug (front-end or back-end) any cross-browser compatibility issues.
           </li>
           <li>Ongoing site maintenance and updates.</li>
           <li>
-            Advise on best practices and current trends, and come up with creative solutions to
+            Advised on best practices and current trends, and came up with creative solutions to
             development problems or obstacles.
           </li>
         </JobList>
@@ -72,26 +91,6 @@ const ResumeContent = () => (
           <li>
             Attended meetings with clients to discuss new requirements, or changes to the
             application.
-          </li>
-        </JobList>
-      </JobSection>
-      <JobSection>
-        <Subtitle>Batch Test Analyst (Co-op)</Subtitle>
-        <Description>Canadian Imperial Bank of Commerce | May 2008 - August 2009</Description>
-        <JobList>
-          <li>
-            Executed test cases, scenarios and scripts to ensure batch functionality in multiple
-            applications.
-          </li>
-          <li>
-            Ensured that all batch jobs executed properly by performing log and output verification
-            and working with Application Development teams and clients to identify resolution of
-            variances.
-          </li>
-          <li>Assisted in the design and development of test tools.</li>
-          <li>
-            Provided technical support and expertise in batch process testing for banking
-            applications.
           </li>
         </JobList>
       </JobSection>

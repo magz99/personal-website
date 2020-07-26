@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 import SectionTitle from '../styles/shared';
 
-const myEmail = () => 'hello@magali.dev';
+const myEmail = () => 'mbautistalee@gmail.com';
 const website = () => 'magzb.ca';
 const webUrl = () => 'https://www.magzb.ca';
 const myPhone = () => '(905) 782-1272';
-const myAddress = () => '26 Trowell Lane, Ajax ON, L1Z1K4';
+const myAddress = () => '30 Morewood Crescent, North York ON, M2K1L8';
 
 const InfoList = styled.ul`
   margin-bottom: 5px;
