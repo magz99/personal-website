@@ -39,20 +39,21 @@ const InfoSidebar = ({ displayFull }) => (
           <SectionTitle>Tech Skills</SectionTitle>
           <Subtitle>Proficient With:</Subtitle>
           <InfoList>
-            <li>Javascript, jQuery</li>
-            <li>HTML and CSS</li>
-            <li>SVN</li>
+            <li>Typescript, Javascript</li>
+            <li>jQuery, HTML and CSS (LESS/SASS)</li>
+            <li>git, SVN</li>
+            <li>Agile/Scrum methods</li>
           </InfoList>
           <Subtitle>Working Knowledge:</Subtitle>
           <InfoList>
-            <li>AngularJS, Angular</li>
-            <li>React, Redux</li>
-            <li>PHP (Laravel)</li>
+            <li>Angular, AngularJS</li>
             <li>Java (Spring)</li>
+            <li>RxJS, ngrx</li>
+            <li>PHP (Laravel)</li>
           </InfoList>
           <Subtitle>Occasional (some familiarity):</Subtitle>
           <InfoList>
-            <li>Git</li>
+            <li>React, Redux</li>
             <li>Firebase</li>
             <li>Mysql</li>
             <li>Node.js and Express.js</li>
