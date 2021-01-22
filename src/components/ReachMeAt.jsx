@@ -7,7 +7,7 @@ const myEmail = () => 'mbautistalee@gmail.com';
 const website = () => 'magzb.ca';
 const webUrl = () => 'https://www.magzb.ca';
 const myPhone = () => '(905) 782-1272';
-const myAddress = () => '30 Morewood Crescent, North York ON, M2K1L8';
+const myAddress = () => '39 Morewood Crescent, North York ON, M2K1L8';
 
 const InfoList = styled.ul`
   margin-bottom: 5px;
