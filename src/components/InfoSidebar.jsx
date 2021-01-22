@@ -47,16 +47,16 @@ const InfoSidebar = ({ displayFull }) => (
           <Subtitle>Working Knowledge:</Subtitle>
           <InfoList>
             <li>Angular, AngularJS</li>
-            <li>Java (Spring)</li>
             <li>RxJS, ngrx</li>
-            <li>PHP (Laravel)</li>
+            <li>Node.js and Express.js</li>
+            <li>Storybook, Puppeteer</li>
           </InfoList>
           <Subtitle>Occasional (some familiarity):</Subtitle>
           <InfoList>
+            <li>Java (Spring), Python</li>
+            <li>PHP (Laravel)</li>
             <li>React, Redux</li>
-            <li>Firebase</li>
-            <li>Mysql</li>
-            <li>Node.js and Express.js</li>
+            <li>Firebase, Mysql</li>
           </InfoList>
         </div>
         <div>
