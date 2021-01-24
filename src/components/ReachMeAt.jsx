@@ -6,7 +6,7 @@ import SectionTitle from '../styles/shared';
 const myEmail = () => 'mbautistalee@gmail.com';
 const gitHub = () => 'https://www.github.com/magz99';
 const website = () => 'magz99';
-const webUrl = () => 'https://www.magzb.ca';
+// const webUrl = () => 'https://www.magzb.ca';
 const myPhone = () => '(905) 782-1272';
 const myAddress = () => '39 Morewood Crescent, North York ON, M2K1L8';
 
