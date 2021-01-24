@@ -11,6 +11,7 @@ const Description = styled.h4`
   font-style: italic;
   font-size: 14px;
   margin-bottom: 5px;
+  line-height: 1.2;
 `;
 
 const JobList = styled.ul`
@@ -37,7 +38,7 @@ const ResumeContent = () => (
       <JobSection>
         <Subtitle>Software Developer</Subtitle>
         <Description>
-          Rangle.io, Toronto, Ontario | September 2019 - Present
+          Rangle.io, Toronto, Ontario&nbsp;|&nbsp;September 2019 - Present
         </Description>
         <JobList>
           <li>
@@ -56,7 +57,7 @@ const ResumeContent = () => (
       <JobSection>
         <Subtitle>Senior Web Developer</Subtitle>
         <Description>
-          Saatchi &amp; Saatchi Canada (TPM Division), Toronto, Ontario | May 2011 - August 2019
+          Saatchi &amp; Saatchi Canada (TPM Division), Toronto, Ontario&nbsp;|&nbsp;May 2011 - August 2019
         </Description>
         <JobList>
           <li>
@@ -80,7 +81,7 @@ const ResumeContent = () => (
       </JobSection>
       <JobSection>
         <Subtitle>Software Developer</Subtitle>
-        <Description>University of Toronto | June 2010 - August 2010</Description>
+        <Description>University of Toronto&nbsp;|&nbsp;June 2010 - August 2010</Description>
         <JobList>
           <li>
             Added functionality to a pre-existing web-based application to be used internally by U

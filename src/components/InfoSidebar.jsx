@@ -43,11 +43,13 @@ const InfoSidebar = ({ displayFull }) => (
             <li>jQuery, HTML and CSS (LESS/SASS)</li>
             <li>git, SVN</li>
             <li>Agile/Scrum methods</li>
+            <li>WCAG/AODA guidelines</li>
           </InfoList>
           <Subtitle>Working Knowledge:</Subtitle>
           <InfoList>
-            <li>Angular, AngularJS</li>
+            <li>Angular 4+</li>
             <li>RxJS, ngrx</li>
+            <li>AWS</li>
             <li>Node.js and Express.js</li>
             <li>Storybook, Puppeteer</li>
           </InfoList>
@@ -55,7 +57,7 @@ const InfoSidebar = ({ displayFull }) => (
           <InfoList>
             <li>Java (Spring), Python</li>
             <li>PHP (Laravel)</li>
-            <li>React, Redux</li>
+            <li>React, Redux, AngularJS</li>
             <li>Firebase, Mysql</li>
           </InfoList>
         </div>

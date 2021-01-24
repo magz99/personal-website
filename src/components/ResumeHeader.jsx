@@ -30,9 +30,10 @@ const myPosition = () => 'Web Developer';
 
 const ResumeHeader = () => (
   <Header className="resume-header">
-    <span className="name">{myName()}</span>
+    <h1><span className="name">{myName()}</span>
     <br />
     <span className="position">{myPosition()}</span>
+    </h1>
   </Header>
 );
 
