@@ -39,18 +39,21 @@ const InfoSidebar = ({ displayFull }) => (
           <SectionTitle>Tech Skills</SectionTitle>
           <Subtitle>Proficient With:</Subtitle>
           <InfoList>
-            <li>Typescript, Javascript</li>
+            <li>Angular 10+, Typescript, Javascript</li>
+            <li>RxJS, ngrx</li>
+            <li>RESTful services</li>
+            <li>Cypress and Jest testing framework</li>
             <li>HTML and CSS (LESS/SCSS)</li>
-            <li>git, SVN</li>
+            <li>git</li>
             <li>Agile/Scrum methods</li>
             <li>WCAG/AODA guidelines</li>
           </InfoList>
           <Subtitle>Working Knowledge:</Subtitle>
           <InfoList>
+            <li>Firebase, Analytics</li>
+            <li>SVN</li>
             <li>jQuery</li>
-            <li>Angular 4+</li>
             <li>Node.js and Express.js</li>
-            <li>RxJS, ngrx</li>
             <li>AWS</li>
             <li>Storybook, Puppeteer</li>
           </InfoList>
@@ -59,7 +62,7 @@ const InfoSidebar = ({ displayFull }) => (
             <li>Java (Spring), Python</li>
             <li>PHP (Laravel)</li>
             <li>React, Redux, AngularJS</li>
-            <li>Firebase, Mysql</li>
+            <li>Mysql</li>
           </InfoList>
         </div>
         <div>

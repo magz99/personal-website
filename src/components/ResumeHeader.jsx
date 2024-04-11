@@ -26,7 +26,7 @@ const Header = styled.header`
 `;
 
 const myName = () => 'Magali Bautista-Lee';
-const myPosition = () => 'Web Developer';
+const myPosition = () => 'Senior Web Developer';
 
 const ResumeHeader = () => (
   <Header className="resume-header">

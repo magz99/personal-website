@@ -36,9 +36,28 @@ const ResumeContent = () => (
     <div>
       <SectionTitle>Experience</SectionTitle>
       <JobSection>
+        <Subtitle>Senior Software Engineer</Subtitle>
+        <Description>
+          Cisco Systems, Toronto, Ontario&nbsp;|&nbsp;August 2021 - Present
+        </Description>
+        <JobList>
+          <li>
+            Creates a rapidly evolving consumer-facing mobile application
+          </li>
+          <li>
+            Assist in architecting front-end features and requirements
+          </li>
+          <li>Create intuitive, robust and reusable user interfaces using the Ionic framework</li>
+          <li>
+            Writes unit and end-to-end tests for new features that are developed
+          </li>
+          <li>Help manage individual project priorities, deadlines and deliverables</li>
+        </JobList>
+      </JobSection>
+      <JobSection>
         <Subtitle>Software Developer</Subtitle>
         <Description>
-          Rangle.io, Toronto, Ontario&nbsp;|&nbsp;September 2019 - Present
+          Rangle.io, Toronto, Ontario&nbsp;|&nbsp;September 2019 - July 2021
         </Description>
         <JobList>
           <li>
